@@ -9,11 +9,15 @@
             font-family: Arial, sans-serif;
             background: #f4f4f4;
             padding: 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         .container {
             max-width: 600px;
             background: #fff;
-            margin: auto;
+            margin: 20px auto;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -48,11 +52,22 @@
         button:hover {
             background: #0056b3;
         }
+
+        /* Footer styling */
         footer {
-            text-align:center;
-            padding:14px 10px;
-            color:rgba(255,255,255,0.95);
-            font-size:0.9rem;
+            margin-top: auto;
+            background: #222;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 14px;
+        }
+        footer a {
+            color: #00aaff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -93,10 +108,11 @@
         <button type="submit">Submit</button>
     </form>
 </div>
-    <footer>
-    <p>
-    © Cano, James Anthony J, Bantule, Derrick J, Poloyapoy, Lito R 2025
-    </p>
-    </footer>
+
+<footer>
+    © 2025 © Cano, James Anthony J, Bantule, Derrick J, Poloyapoy, Lito R All rights reserved.  
+    | <a href="#">Privacy Policy</a> | <a href="#">Contact</a>
+</footer>
+
 </body>
 </html>
